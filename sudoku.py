@@ -89,4 +89,4 @@ sudoku = SudokuPuzzle()
 
 if __name__ == '__main__':
     sudoku.call_solve('puzzle1.txt', 'puzzles')
-    sudoku.run_all_files('puzzles')
+    sudoku.run_all_files('test_puzzles')

@@ -54,7 +54,7 @@ was good enough as it is far better than a naive brute force solution.
 
 I considered trying to make an intelligent loop which iterates through all elements
 and fills spaces which have only 1 possible solution, followed by 2 and increasing 
-backtracking if a solution is ever impossible
+backtracking if a solution is ever impossible.
 
 It'd be interesting to attempt such a solution and compare the time to complete
 as I suspect it'd be faster and more "human" in its approach albeit still
@@ -62,21 +62,22 @@ relatively complex timewise. The optimal solution, by my view,
 would be a "human" approach where the algorithm has a metric for information density 
 on the board and can make guesses based on the probability of a given input.
 
-I think such a solution would be more challenging and likely totally overkill but it'd
-definitely do a great job if it were somehow managed.
+I think such a solution would be more difficult to implement and likely totally overkill but it'd
+definitely also undoubtedly be an efficient algorithm if it were somehow managed.
 
-I did my best to write descriptive and informative comments in each method such that
-another engineer could quickly and easily understand the basic methods/means of the solution
+I included descriptive and informative comments in each method detailing input/output as well as
+an overview of basic functions in plain English phrasing such that another engineer 
+could quickly and easily understand the basic methods/means of the solution.
 
-Likewise, I wrote a handful of tests to demonstrate the working error handling and successful output
+Likewise, I wrote a handful of tests to demonstrate the working error handling and successful output.
 
-I think I'd probably also add a perftime metric so that I can better evaluate the
-time efficiency of the algorithm. 
+I think additionally I'd also like to add a perftime metric so that I can better evaluate the
+time efficiency of the algorithmic methods. 
 
-All in all, I'm happy with the outcome and I hope that you will be as well!
+All in all, I'm happy with the outcome, and I hope that you will be as well!
 
-Thank you for the opportunity, looking forward to feedback as I'm eager to learn and improve
-further as an engineer!
+Thank you for the opportunity, looking forward to your feedback 
+as I'm always looking for ways to learn and improve further as an engineer!
 
 Keep the Fire Alive Inside You!
 
