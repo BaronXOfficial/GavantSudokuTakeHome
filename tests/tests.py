@@ -44,6 +44,18 @@ class SudokuTest(unittest.TestCase):
 
         self.assertEqual(expected_error, sudoku.call_solve(test_file, directory))
 
+    def test_file_not_found_failure(self):
+        """Test File Not Found Exception
+        Input is a .txt string to a non-existent file
+
+        Expected return: 'Error! File not found in specified directory!'
+        """
+        test_file = "fakefile.txt"
+        directory = 'test_puzzles'
+        expected_error = 'Error! File not found in specified directory!'
+
+        self.assertEqual(expected_error, sudoku.call_solve(test_file, directory))
+
     def test_working_solution_success(self):
         test_file = 'puzzle1.txt'
         directory = 'test_puzzles'
