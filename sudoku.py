@@ -72,8 +72,6 @@ class SudokuPuzzle:
         Excludes files ending in '.sln.txt' as those are considered already complete
         Runs solving algorithm for every file within directory
         Prints a "complete" message with every item completed
-
-
         """
         all_files = helper.get_all_files(directory)
         for file in all_files:
