@@ -26,10 +26,12 @@ Primary use should be within sudoku.py,
 SudokuPuzzle is instantiated as sudoku and its methods can be called:
 
 methods: 
-    -call_solve:
-        - Takes a single sudoku file and returns an output
-    -run_all_files:
-        - Takes a directory and runs call_solve on all .txt files
+
+* call_solve:
+        Takes a single sudoku file and returns an output 
+
+* run_all_files:
+        Takes a directory and runs call_solve on all .txt files
 
 
 utility_functions are primarily helpers but can also be invoked 
